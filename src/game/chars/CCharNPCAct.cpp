@@ -578,7 +578,7 @@ int CChar::NPC_WalkToPoint( bool fRun )
 
 	EXC_SET_BLOCK("MoveToChar");
 	//if (!MoveToChar(pMe, false, true))
-    if (!MoveToChar(pMe, false, false))
+     if (!MoveToChar(pMe, false, true))
         return 2;
 
 	EXC_SET_BLOCK("Move Update");
